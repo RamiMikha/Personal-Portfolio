@@ -23,6 +23,39 @@
             </ul>
         </div>
     </nav>
+
+    <!--Section is used to group together content-->
+    <section id = "About">
+        <div class = "section_pic">
+            <img src="./assets/profile-pic.jpg" alt="My Profile Picture"/>
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="name">Rami Mikha</h1>
+            <p class="section_text_p2">Computer Science Student</p>
+            <div class="btn-container">
+                <button 
+                class="btn-color-2" 
+                onclick="window.open('./assets/Rami-Mikha-CS-Resume.pdf')">
+                Download Resume
+                </button>
+                <button 
+                class="btn-color-1" 
+                onclick="location.href='./#contact'">
+                Contact Info
+                </button>
+            </div>
+            <div id = "socials-container">
+                <img src="./assets/linkedin.png" alt="My Linkedin Profile" 
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/rami-mikha-687758242'">
+                <img src="./assets/github.png" alt="My Github Repositories"
+                class = "icon"
+                onclick="location.href='https://github.com/RamiMikha'">
+            </div>
+        </div>
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
